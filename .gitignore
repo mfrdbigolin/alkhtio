@@ -1,0 +1,21 @@
+# .gitignore -- files to be ignored by git
+# Copyright (C) 2020 Matheus Fernandes Bigolin <mfrdrbigolin@disroot.org>
+# SPDX-License-Identifier: MIT
+
+
+.*
+*~
+~*
+\#*
+*\#
+*.out
+
+*.a
+*.o
+*.s
+
+bin/
+build/
+
+!.gitattributes
+!.gitignore
